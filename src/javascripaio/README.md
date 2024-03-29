@@ -1,3 +1,7 @@
+# JavaScript All-in-One For Dummies
+
+I am learning JavaScript, React, Vue, Svelte and Node from a book and online resources.
+
 # Gamelet
 
 A starter program for writing JavaScript games.
