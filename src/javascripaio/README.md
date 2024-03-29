@@ -12,3 +12,5 @@ A starter program for writing JavaScript games.
 ```
 
 2. The script will detect when the left or right arrow jeys are pressed and will move the ball element accordingly.
+
+hhh
