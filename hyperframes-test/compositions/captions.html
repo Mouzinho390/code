@@ -1,0 +1,69 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; pointer-events: none; }
+    .cap { position: absolute; left: 0; width: 1080px; height: 104px; text-align: center; overflow: visible; }
+    .cap-pill {
+      display: inline-block; padding: 2px 16px 8px; border-radius: 14px; background: rgba(30, 31, 38, 0.62);
+      color: #fff; font-family: "Inter", sans-serif; font-weight: 800; font-size: 72px; line-height: 1.2;
+      letter-spacing: -0.015em; white-space: nowrap;
+    }
+  </style>
+  <div id="root" data-composition-id="captions" data-width="1080" data-height="1920">
+    <div class="cap clip" id="cap0" data-start="0.23" data-duration="0.52" style="top:896px"><span class="cap-pill" id="cap0-p">You record</span></div>
+    <div class="cap clip" id="cap1" data-start="0.74" data-duration="0.80" style="top:896px"><span class="cap-pill" id="cap1-p">one take.</span></div>
+    <div class="cap clip" id="cap2" data-start="1.54" data-duration="0.94" style="top:896px"><span class="cap-pill" id="cap2-p">That's it.</span></div>
+    <div class="cap clip" id="cap3" data-start="2.48" data-duration="0.69" style="top:896px"><span class="cap-pill" id="cap3-p">Most people</span></div>
+    <div class="cap clip" id="cap4" data-start="3.17" data-duration="1.21" style="top:896px"><span class="cap-pill" id="cap4-p">edit for hours</span></div>
+    <div class="cap clip" id="cap5" data-start="4.38" data-duration="0.48" style="top:1198px"><span class="cap-pill" id="cap5-p">and still</span></div>
+    <div class="cap clip" id="cap6" data-start="4.86" data-duration="0.50" style="top:1198px"><span class="cap-pill" id="cap6-p">don't know</span></div>
+    <div class="cap clip" id="cap7" data-start="5.35" data-duration="0.88" style="top:1198px"><span class="cap-pill" id="cap7-p">what works.</span></div>
+    <div class="cap clip" id="cap8" data-start="6.23" data-duration="0.43" style="top:896px"><span class="cap-pill" id="cap8-p">So, pick</span></div>
+    <div class="cap clip" id="cap9" data-start="6.66" data-duration="1.00" style="top:896px"><span class="cap-pill" id="cap9-p">your style.</span></div>
+    <div class="cap clip" id="cap10" data-start="7.66" data-duration="0.55" style="top:1198px"><span class="cap-pill" id="cap10-p">The agent</span></div>
+    <div class="cap clip" id="cap11" data-start="8.21" data-duration="1.13" style="top:1198px"><span class="cap-pill" id="cap11-p">reads your script</span></div>
+    <div class="cap clip" id="cap12" data-start="9.34" data-duration="1.48" style="top:1198px"><span class="cap-pill" id="cap12-p">plans every scene</span></div>
+    <div class="cap clip" id="cap13" data-start="10.82" data-duration="0.24" style="top:1198px"><span class="cap-pill" id="cap13-p">and asks</span></div>
+    <div class="cap clip" id="cap14" data-start="11.06" data-duration="0.70" style="top:1198px"><span class="cap-pill" id="cap14-p">you once.</span></div>
+    <div class="cap clip" id="cap15" data-start="11.76" data-duration="0.64" style="top:896px"><span class="cap-pill" id="cap15-p">Captions land</span></div>
+    <div class="cap clip" id="cap16" data-start="12.40" data-duration="1.24" style="top:896px"><span class="cap-pill" id="cap16-p">on every word.</span></div>
+    <div class="cap clip" id="cap17" data-start="13.64" data-duration="0.88" style="top:1198px"><span class="cap-pill" id="cap17-p">The animations</span></div>
+    <div class="cap clip" id="cap18" data-start="14.52" data-duration="0.45" style="top:1198px"><span class="cap-pill" id="cap18-p">match what</span></div>
+    <div class="cap clip" id="cap19" data-start="14.98" data-duration="0.73" style="top:1198px"><span class="cap-pill" id="cap19-p">you say.</span></div>
+    <div class="cap clip" id="cap20" data-start="15.71" data-duration="0.83" style="top:1198px"><span class="cap-pill" id="cap20-p">And the finished</span></div>
+    <div class="cap clip" id="cap21" data-start="16.54" data-duration="0.70" style="top:1198px"><span class="cap-pill" id="cap21-p">short is ready</span></div>
+    <div class="cap clip" id="cap22" data-start="17.24" data-duration="0.74" style="top:1198px"><span class="cap-pill" id="cap22-p">to post.</span></div>
+    <div class="cap clip" id="cap23" data-start="17.98" data-duration="0.91" style="top:896px"><span class="cap-pill" id="cap23-p">One take.</span></div>
+    <div class="cap clip" id="cap24" data-start="18.89" data-duration="0.99" style="top:896px"><span class="cap-pill" id="cap24-p">Ten minutes.</span></div>
+    <div class="cap clip" id="cap25" data-start="19.88" data-duration="1.02" style="top:1198px"><span class="cap-pill" id="cap25-p">Done.</span></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#cap0-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 0.23);
+    tl.fromTo("#cap1-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 0.74);
+    tl.fromTo("#cap2-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 1.54);
+    tl.fromTo("#cap3-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 2.48);
+    tl.fromTo("#cap4-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 3.17);
+    tl.fromTo("#cap5-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 4.38);
+    tl.fromTo("#cap6-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 4.86);
+    tl.fromTo("#cap7-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 5.35);
+    tl.fromTo("#cap8-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 6.23);
+    tl.fromTo("#cap9-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 6.66);
+    tl.fromTo("#cap10-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 7.66);
+    tl.fromTo("#cap11-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 8.21);
+    tl.fromTo("#cap12-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 9.34);
+    tl.fromTo("#cap13-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 10.82);
+    tl.fromTo("#cap14-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 11.06);
+    tl.fromTo("#cap15-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 11.76);
+    tl.fromTo("#cap16-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 12.40);
+    tl.fromTo("#cap17-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 13.64);
+    tl.fromTo("#cap18-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 14.52);
+    tl.fromTo("#cap19-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 14.98);
+    tl.fromTo("#cap20-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 15.71);
+    tl.fromTo("#cap21-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 16.54);
+    tl.fromTo("#cap22-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 17.24);
+    tl.fromTo("#cap23-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 17.98);
+    tl.fromTo("#cap24-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 18.89);
+    tl.fromTo("#cap25-p", { scale: 0.88, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.08, ease: "power2.out" }, 19.88);
+    window.__timelines["captions"] = tl;
+  </script>
+</template>

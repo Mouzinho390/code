@@ -1,0 +1,401 @@
+[
+{
+"text": "You",
+"start": 0.27,
+"end": 0.451,
+"sent": 0,
+"id": "w0"
+},
+{
+"text": "record",
+"start": 0.451,
+"end": 0.785,
+"sent": 0,
+"id": "w1"
+},
+{
+"text": "one",
+"start": 0.785,
+"end": 1.075,
+"sent": 0,
+"id": "w2"
+},
+{
+"text": "take.",
+"start": 1.075,
+"end": 1.38,
+"sent": 0,
+"id": "w3"
+},
+{
+"text": "That's",
+"start": 1.58,
+"end": 1.902,
+"sent": 1,
+"id": "w4"
+},
+{
+"text": "it.",
+"start": 1.902,
+"end": 2.14,
+"sent": 1,
+"id": "w5"
+},
+{
+"text": "Most",
+"start": 2.52,
+"end": 2.774,
+"sent": 2,
+"id": "w6"
+},
+{
+"text": "people",
+"start": 2.774,
+"end": 3.207,
+"sent": 2,
+"id": "w7"
+},
+{
+"text": "edit",
+"start": 3.207,
+"end": 3.603,
+"sent": 2,
+"id": "w8"
+},
+{
+"text": "for",
+"start": 3.603,
+"end": 3.837,
+"sent": 2,
+"id": "w9"
+},
+{
+"text": "hours",
+"start": 3.837,
+"end": 4.11,
+"sent": 2,
+"id": "w10"
+},
+{
+"text": "and",
+"start": 4.42,
+"end": 4.641,
+"sent": 2,
+"id": "w11"
+},
+{
+"text": "still",
+"start": 4.641,
+"end": 4.898,
+"sent": 2,
+"id": "w12"
+},
+{
+"text": "don't",
+"start": 4.898,
+"end": 5.155,
+"sent": 2,
+"id": "w13"
+},
+{
+"text": "know",
+"start": 5.155,
+"end": 5.394,
+"sent": 2,
+"id": "w14"
+},
+{
+"text": "what",
+"start": 5.394,
+"end": 5.633,
+"sent": 2,
+"id": "w15"
+},
+{
+"text": "works.",
+"start": 5.633,
+"end": 5.89,
+"sent": 2,
+"id": "w16"
+},
+{
+"text": "So,",
+"start": 6.27,
+"end": 6.469,
+"sent": 3,
+"id": "w17"
+},
+{
+"text": "pick",
+"start": 6.469,
+"end": 6.703,
+"sent": 3,
+"id": "w18"
+},
+{
+"text": "your",
+"start": 6.703,
+"end": 6.937,
+"sent": 3,
+"id": "w19"
+},
+{
+"text": "style.",
+"start": 6.937,
+"end": 7.32,
+"sent": 3,
+"id": "w20"
+},
+{
+"text": "The",
+"start": 7.7,
+"end": 7.9,
+"sent": 4,
+"id": "w21"
+},
+{
+"text": "agent",
+"start": 7.9,
+"end": 8.253,
+"sent": 4,
+"id": "w22"
+},
+{
+"text": "reads",
+"start": 8.253,
+"end": 8.486,
+"sent": 4,
+"id": "w23"
+},
+{
+"text": "your",
+"start": 8.486,
+"end": 8.702,
+"sent": 4,
+"id": "w24"
+},
+{
+"text": "script",
+"start": 8.702,
+"end": 8.95,
+"sent": 4,
+"id": "w25"
+},
+{
+"text": "plans",
+"start": 9.38,
+"end": 9.687,
+"sent": 4,
+"id": "w26"
+},
+{
+"text": "every",
+"start": 9.687,
+"end": 10.313,
+"sent": 4,
+"id": "w27"
+},
+{
+"text": "scene",
+"start": 10.313,
+"end": 10.78,
+"sent": 4,
+"id": "w28"
+},
+{
+"text": "and",
+"start": 10.86,
+"end": 10.977,
+"sent": 4,
+"id": "w29"
+},
+{
+"text": "asks",
+"start": 10.977,
+"end": 11.104,
+"sent": 4,
+"id": "w30"
+},
+{
+"text": "you",
+"start": 11.104,
+"end": 11.222,
+"sent": 4,
+"id": "w31"
+},
+{
+"text": "once.",
+"start": 11.222,
+"end": 11.42,
+"sent": 4,
+"id": "w32"
+},
+{
+"text": "Captions",
+"start": 11.8,
+"end": 12.217,
+"sent": 5,
+"id": "w33"
+},
+{
+"text": "land",
+"start": 12.217,
+"end": 12.442,
+"sent": 5,
+"id": "w34"
+},
+{
+"text": "on",
+"start": 12.442,
+"end": 12.633,
+"sent": 5,
+"id": "w35"
+},
+{
+"text": "every",
+"start": 12.633,
+"end": 13.126,
+"sent": 5,
+"id": "w36"
+},
+{
+"text": "word.",
+"start": 13.126,
+"end": 13.35,
+"sent": 5,
+"id": "w37"
+},
+{
+"text": "The",
+"start": 13.68,
+"end": 13.882,
+"sent": 6,
+"id": "w38"
+},
+{
+"text": "animations",
+"start": 13.882,
+"end": 14.564,
+"sent": 6,
+"id": "w39"
+},
+{
+"text": "match",
+"start": 14.564,
+"end": 14.799,
+"sent": 6,
+"id": "w40"
+},
+{
+"text": "what",
+"start": 14.799,
+"end": 15.017,
+"sent": 6,
+"id": "w41"
+},
+{
+"text": "you",
+"start": 15.017,
+"end": 15.218,
+"sent": 6,
+"id": "w42"
+},
+{
+"text": "say.",
+"start": 15.218,
+"end": 15.42,
+"sent": 6,
+"id": "w43"
+},
+{
+"text": "And",
+"start": 15.75,
+"end": 15.931,
+"sent": 7,
+"id": "w44"
+},
+{
+"text": "the",
+"start": 15.931,
+"end": 16.111,
+"sent": 7,
+"id": "w45"
+},
+{
+"text": "finished",
+"start": 16.111,
+"end": 16.584,
+"sent": 7,
+"id": "w46"
+},
+{
+"text": "short",
+"start": 16.584,
+"end": 16.794,
+"sent": 7,
+"id": "w47"
+},
+{
+"text": "is",
+"start": 16.794,
+"end": 16.96,
+"sent": 7,
+"id": "w48"
+},
+{
+"text": "ready",
+"start": 16.96,
+"end": 17.279,
+"sent": 7,
+"id": "w49"
+},
+{
+"text": "to",
+"start": 17.279,
+"end": 17.445,
+"sent": 7,
+"id": "w50"
+},
+{
+"text": "post.",
+"start": 17.445,
+"end": 17.64,
+"sent": 7,
+"id": "w51"
+},
+{
+"text": "One",
+"start": 18.02,
+"end": 18.337,
+"sent": 8,
+"id": "w52"
+},
+{
+"text": "take.",
+"start": 18.337,
+"end": 18.67,
+"sent": 8,
+"id": "w53"
+},
+{
+"text": "Ten",
+"start": 18.93,
+"end": 19.137,
+"sent": 9,
+"id": "w54"
+},
+{
+"text": "minutes.",
+"start": 19.137,
+"end": 19.66,
+"sent": 9,
+"id": "w55"
+},
+{
+"text": "Done.",
+"start": 19.92,
+"end": 20.36,
+"sent": 10,
+"id": "w56"
+}
+]

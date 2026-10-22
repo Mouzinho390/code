@@ -1,0 +1,59 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: "Inter", sans-serif; color: #14161c; }
+    #cd-row { position: absolute; left: 60px; top: 420px; width: 960px; height: 480px; }
+    .cd {
+      position: absolute; top: 0; width: 296px; height: 440px; border-radius: 22px; border: 4px solid #2cc6ea;
+      padding: 20px 20px; box-shadow: 0 30px 60px -24px rgba(25, 55, 110, 0.4); overflow: hidden;
+    }
+    .cd-k { font-size: 17px; font-weight: 600; color: #6b7280; letter-spacing: 0.02em; }
+    .cd-t { font-family: "EB Garamond", serif; font-size: 40px; line-height: 1.05; margin-top: 10px; letter-spacing: -0.01em; }
+    .cd-img { position: absolute; left: 20px; right: 20px; bottom: 20px; height: 170px; border-radius: 14px; overflow: hidden; }
+    #cd-wave { position: absolute; left: 150px; top: 260px; width: 780px; height: 90px; display: flex; align-items: center; justify-content: space-between; }
+    .cd-wb { width: 9px; border-radius: 5px; background: #9fdcec; }
+    .cd-pin { position: absolute; top: 340px; width: 4px; height: 84px; background: #2cc6ea; border-radius: 2px; }
+    #cd-chip {
+      position: absolute; left: 330px; top: 190px; padding: 12px 24px; border-radius: 999px; background: #111318; color: #fff;
+      font-size: 26px; font-weight: 600; display: flex; align-items: center; gap: 12px;
+    }
+    #cd-chip i { width: 14px; height: 14px; border-radius: 50%; background: #2cc6ea; display: inline-block; }
+  </style>
+  <div id="root" data-composition-id="sc-cards" data-width="1080" data-height="1920">
+    <div id="cd-chip"><i></i>Synced to your voice</div>
+    <div id="cd-wave">
+      <div class="cd-wb" style="height: 30px"></div><div class="cd-wb" style="height: 54px"></div><div class="cd-wb" style="height: 76px"></div><div class="cd-wb" style="height: 40px"></div><div class="cd-wb" style="height: 62px"></div><div class="cd-wb" style="height: 88px"></div><div class="cd-wb" style="height: 50px"></div><div class="cd-wb" style="height: 24px"></div><div class="cd-wb" style="height: 66px"></div><div class="cd-wb" style="height: 82px"></div><div class="cd-wb" style="height: 44px"></div><div class="cd-wb" style="height: 70px"></div><div class="cd-wb" style="height: 34px"></div><div class="cd-wb" style="height: 58px"></div><div class="cd-wb" style="height: 86px"></div><div class="cd-wb" style="height: 48px"></div><div class="cd-wb" style="height: 28px"></div><div class="cd-wb" style="height: 64px"></div><div class="cd-wb" style="height: 80px"></div><div class="cd-wb" style="height: 38px"></div><div class="cd-wb" style="height: 60px"></div><div class="cd-wb" style="height: 84px"></div><div class="cd-wb" style="height: 46px"></div><div class="cd-wb" style="height: 26px"></div><div class="cd-wb" style="height: 70px"></div><div class="cd-wb" style="height: 52px"></div><div class="cd-wb" style="height: 78px"></div><div class="cd-wb" style="height: 36px"></div><div class="cd-wb" style="height: 62px"></div><div class="cd-wb" style="height: 44px"></div><div class="cd-wb" style="height: 74px"></div><div class="cd-wb" style="height: 30px"></div><div class="cd-wb" style="height: 56px"></div><div class="cd-wb" style="height: 82px"></div><div class="cd-wb" style="height: 42px"></div><div class="cd-wb" style="height: 66px"></div><div class="cd-wb" style="height: 28px"></div><div class="cd-wb" style="height: 50px"></div>
+    </div>
+    <div class="cd-pin" style="left: 208px"></div>
+    <div class="cd-pin" style="left: 538px"></div>
+    <div class="cd-pin" style="left: 868px"></div>
+    <div id="cd-row">
+      <div class="cd" id="cd-1" style="left: 0px; background: #fbf0d6">
+        <div class="cd-k">SCENE 1/3</div>
+        <div class="cd-t">Hook on screen.</div>
+        <div class="cd-img" style="background: linear-gradient(135deg, #2b2f3a, #596274)"></div>
+      </div>
+      <div class="cd" id="cd-2" style="left: 332px; background: #fde3da">
+        <div class="cd-k">SCENE 2/3</div>
+        <div class="cd-t">One idea per cut.</div>
+        <div class="cd-img" style="background: linear-gradient(135deg, #a4573f, #e3a07a)"></div>
+      </div>
+      <div class="cd" id="cd-3" style="left: 664px; background: #dcf1e6">
+        <div class="cd-k">SCENE 3/3</div>
+        <div class="cd-t">Payoff last.</div>
+        <div class="cd-img" style="background: linear-gradient(135deg, #2e6b55, #7cc4a2)"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#cd-1", { y: 160, rotation: -6, opacity: 0 }, { y: 0, rotation: 0, opacity: 1, duration: 0.5, ease: "back.out(1.5)" }, 0.25);
+    tl.fromTo("#cd-2", { y: 160, rotation: 4, opacity: 0 }, { y: 0, rotation: 0, opacity: 1, duration: 0.5, ease: "back.out(1.5)" }, 0.37);
+    tl.fromTo("#cd-3", { y: 160, rotation: 7, opacity: 0 }, { y: 0, rotation: 0, opacity: 1, duration: 0.5, ease: "back.out(1.5)" }, 0.49);
+    // "match what you say"
+    tl.fromTo("#cd-wave .cd-wb", { scaleY: 0, opacity: 0 }, { scaleY: 1, opacity: 1, duration: 0.25, ease: "power2.out", stagger: 0.01 }, 0.95);
+    tl.fromTo(".cd-pin", { scaleY: 0, transformOrigin: "50% 0%" }, { scaleY: 1, duration: 0.2, ease: "power2.out", stagger: 0.08 }, 1.15);
+    tl.fromTo("#cd-chip", { y: -20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "back.out(2)" }, 1.05);
+    tl.to("#cd-2", { y: -24, scale: 1.05, duration: 0.3, ease: "power2.out" }, 1.62);
+    window.__timelines["sc-cards"] = tl;
+  </script>
+</template>

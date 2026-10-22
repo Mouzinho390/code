@@ -1,0 +1,107 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: "Inter", sans-serif; color: #14161c; }
+    #wd-card {
+      position: absolute; left: 78px; top: 260px; width: 924px; height: 560px; border-radius: 30px;
+      background: #fff; box-shadow: 0 40px 80px -30px rgba(25, 55, 110, 0.35); padding: 34px 40px;
+    }
+    #wd-head { display: flex; align-items: center; gap: 14px; font-size: 28px; font-weight: 700; }
+    #wd-auto { padding: 6px 14px; border-radius: 999px; background: #e6f8fd; color: #0b7a95; font-size: 28px; font-weight: 600; }
+    #wd-stage { position: relative; height: 420px; margin-top: 10px; }
+    .wd-chip {
+      position: absolute; padding: 12px 22px; border-radius: 14px; background: #fff; border: 1.5px solid #e3e8ef;
+      font-size: 36px; font-weight: 800; letter-spacing: -0.01em; box-shadow: 0 10px 24px -12px rgba(25, 55, 110, 0.35);
+    }
+    #wd-wave { position: absolute; left: 0; right: 0; bottom: 40px; height: 110px; display: flex; align-items: center; gap: 7px; }
+    .wd-bar { width: 8px; border-radius: 4px; background: #cfd8e3; }
+    #wd-play { position: absolute; left: 0; bottom: 20px; width: 4px; height: 330px; border-radius: 2px; background: #2cc6ea; }
+  </style>
+  <div id="root" data-composition-id="sc-words" data-width="1080" data-height="1920">
+    <div id="wd-card">
+      <div id="wd-head">Captions <span id="wd-auto">Auto · word-synced</span></div>
+      <div id="wd-stage" data-layout-allow-overlap>
+        <div class="wd-chip" id="wd-c0" style="left:60px;top:40px">Captions</div>
+        <div class="wd-chip" id="wd-c1" style="left:227px;top:126px">land</div>
+        <div class="wd-chip" id="wd-c2" style="left:317px;top:40px">on</div>
+        <div class="wd-chip" id="wd-c3" style="left:393px;top:126px">every</div>
+        <div class="wd-chip" id="wd-c4" style="left:590px;top:40px">word.</div>
+        <div id="wd-wave">
+          <div class="wd-bar" style="height:18px"></div>
+          <div class="wd-bar" style="height:61px"></div>
+          <div class="wd-bar" style="height:79px"></div>
+          <div class="wd-bar" style="height:64px"></div>
+          <div class="wd-bar" style="height:32px"></div>
+          <div class="wd-bar" style="height:28px"></div>
+          <div class="wd-bar" style="height:29px"></div>
+          <div class="wd-bar" style="height:20px"></div>
+          <div class="wd-bar" style="height:29px"></div>
+          <div class="wd-bar" style="height:18px"></div>
+          <div class="wd-bar" style="height:48px"></div>
+          <div class="wd-bar" style="height:74px"></div>
+          <div class="wd-bar" style="height:73px"></div>
+          <div class="wd-bar" style="height:40px"></div>
+          <div class="wd-bar" style="height:43px"></div>
+          <div class="wd-bar" style="height:76px"></div>
+          <div class="wd-bar" style="height:76px"></div>
+          <div class="wd-bar" style="height:49px"></div>
+          <div class="wd-bar" style="height:19px"></div>
+          <div class="wd-bar" style="height:33px"></div>
+          <div class="wd-bar" style="height:25px"></div>
+          <div class="wd-bar" style="height:24px"></div>
+          <div class="wd-bar" style="height:25px"></div>
+          <div class="wd-bar" style="height:32px"></div>
+          <div class="wd-bar" style="height:62px"></div>
+          <div class="wd-bar" style="height:76px"></div>
+          <div class="wd-bar" style="height:58px"></div>
+          <div class="wd-bar" style="height:21px"></div>
+          <div class="wd-bar" style="height:65px"></div>
+          <div class="wd-bar" style="height:82px"></div>
+          <div class="wd-bar" style="height:65px"></div>
+          <div class="wd-bar" style="height:31px"></div>
+          <div class="wd-bar" style="height:31px"></div>
+          <div class="wd-bar" style="height:34px"></div>
+          <div class="wd-bar" style="height:20px"></div>
+          <div class="wd-bar" style="height:26px"></div>
+          <div class="wd-bar" style="height:19px"></div>
+          <div class="wd-bar" style="height:47px"></div>
+          <div class="wd-bar" style="height:71px"></div>
+          <div class="wd-bar" style="height:70px"></div>
+          <div class="wd-bar" style="height:36px"></div>
+          <div class="wd-bar" style="height:46px"></div>
+          <div class="wd-bar" style="height:79px"></div>
+          <div class="wd-bar" style="height:78px"></div>
+          <div class="wd-bar" style="height:49px"></div>
+          <div class="wd-bar" style="height:21px"></div>
+          <div class="wd-bar" style="height:37px"></div>
+          <div class="wd-bar" style="height:30px"></div>
+          <div class="wd-bar" style="height:20px"></div>
+          <div class="wd-bar" style="height:22px"></div>
+          <div class="wd-bar" style="height:32px"></div>
+          <div class="wd-bar" style="height:60px"></div>
+          <div class="wd-bar" style="height:73px"></div>
+          <div class="wd-bar" style="height:54px"></div>
+          <div class="wd-bar" style="height:24px"></div>
+          <div class="wd-bar" style="height:68px"></div>
+        </div>
+        <div id="wd-play"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#wd-card", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "power3.out" }, 0);
+    tl.fromTo("#wd-play", { x: 0 }, { x: 840, duration: 1.80, ease: "none" }, 0.05);
+    tl.fromTo("#wd-wave .wd-bar", { scaleY: 0.2 }, { scaleY: 1, duration: 0.3, ease: "power2.out", stagger: 0.012 }, 0.05);
+    tl.fromTo("#wd-c0", { y: -50, opacity: 0, scale: 0.8 }, { y: 0, opacity: 1, scale: 1, duration: 0.22, ease: "back.out(2.2)" }, 0.11);
+    tl.fromTo("#wd-c0", { backgroundColor: "#2cc6ea", color: "#06232b" }, { backgroundColor: "#ffffff", color: "#14161c", duration: 0.3 }, 0.57);
+    tl.fromTo("#wd-c1", { y: -50, opacity: 0, scale: 0.8 }, { y: 0, opacity: 1, scale: 1, duration: 0.22, ease: "back.out(2.2)" }, 0.53);
+    tl.fromTo("#wd-c1", { backgroundColor: "#2cc6ea", color: "#06232b" }, { backgroundColor: "#ffffff", color: "#14161c", duration: 0.3 }, 0.79);
+    tl.fromTo("#wd-c2", { y: -50, opacity: 0, scale: 0.8 }, { y: 0, opacity: 1, scale: 1, duration: 0.22, ease: "back.out(2.2)" }, 0.75);
+    tl.fromTo("#wd-c2", { backgroundColor: "#2cc6ea", color: "#06232b" }, { backgroundColor: "#ffffff", color: "#14161c", duration: 0.3 }, 0.98);
+    tl.fromTo("#wd-c3", { y: -50, opacity: 0, scale: 0.8 }, { y: 0, opacity: 1, scale: 1, duration: 0.22, ease: "back.out(2.2)" }, 0.94);
+    tl.fromTo("#wd-c3", { backgroundColor: "#2cc6ea", color: "#06232b" }, { backgroundColor: "#ffffff", color: "#14161c", duration: 0.3 }, 1.48);
+    tl.fromTo("#wd-c4", { y: -50, opacity: 0, scale: 0.8 }, { y: 0, opacity: 1, scale: 1, duration: 0.22, ease: "back.out(2.2)" }, 1.44);
+    tl.fromTo("#wd-c4", { backgroundColor: "#2cc6ea", color: "#06232b" }, { backgroundColor: "#ffffff", color: "#14161c", duration: 0.3 }, 1.70);
+    window.__timelines["sc-words"] = tl;
+  </script>
+</template>
